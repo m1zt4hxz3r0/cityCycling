@@ -1,0 +1,148 @@
+#homeContainer{
+	margin: 0 auto;
+	padding: 0;
+}
+.centerAlign{
+	text-align: center;
+	background-color: black;
+	display: inline-block;
+}
+.navbar.center .navbar-inner {
+    text-align: center;
+}
+
+.navbar.center .navbar-inner .nav {
+    display:inline-block;
+    float: none;
+}
+#contentView{
+
+}
+#navigationBar{
+	margin-bottom: 0 !important;
+}
+#mountainBike{
+	background: url(../img/mountain-bike-cover.jpg) no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 200px;
+  transition: all .3s;
+}
+#mountainBike:hover{
+	height: 400px;
+}
+#ladyBike{
+	background: url(../img/lady-bike-cover.jpg) no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 200px;
+}
+#kidBike{
+	background: url(../img/kid-bike-cover.jpg) no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 200px;
+  left: 0;	
+}
+.navFont{
+	color: black;
+	font-family: Arial;
+	font-weight: bold;
+	font-size: 15px;
+	text-shadow: none;
+}
+li>a{
+	text-shadow:0;
+}
+.grow{
+	transition: all 2s ease-in;
+}
+.grow:hover{
+
+}
+.shadow {
+  -moz-box-shadow:    3px 3px 5px 6px #5c2e48;
+  -webkit-box-shadow: 3px 3px 5px 6px #5c2e48;
+  box-shadow:         3px 3px 5px 6px #5c2e48;
+}
+#shapeX{
+	border-top:200px solid orange;
+	border-left:  150px solid transparent;
+	border-bottom: 300px solid transparent;
+	height: 200px;
+	width: 500px;
+	opacity: .8;
+	padding: 0;
+	margin: 0;
+	position: absolute;;
+	z-index: 0;
+	right: 0;
+
+}
+#shapeY{
+	border-top:200px solid black;
+	border-right:  150px solid transparent;
+	border-bottom: 300px solid transparent;
+	height: 200px;
+	width: 500px;
+	opacity: .8;
+	padding: 0;
+	margin: 0;
+	position: absolute;
+	z-index: 0;
+	left: 0;
+}
+#shapeY:hover {
+
+}
+#shapeX:hover{
+
+}
+.detail-right{
+	position: absolute;;
+	z-index: 1;
+	right: 0;
+	padding-right: 10px;
+	margin-right: 40px; 
+}
+.detail-left{
+	position: absolute;;
+	z-index: 1;
+	left: 0;
+	padding-left: 10px;
+	margin-left: 40px; 
+}
+.whiteFont{
+	color: yellow;
+	font-family: arial;
+	font-weight: bold;
+	font-size: 40px;
+	z-index: 2;
+}
+.flat{
+	border-radius: 0;
+}
+.white{
+	color: white;
+}
+.padding5pxtopbot{
+	padding: 5px;
+}
+#productsContainer{
+	margin-top: 30px;
+	padding: 0;
+
+}
+#containerLabel{
+	background-color: black;
+	font-size: 30px;
+	color: yellow;
+	font-family: arial;
+	font-weight: bolder;
+}
