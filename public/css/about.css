@@ -1,0 +1,19 @@
+#about-logo{
+	height: 500px;
+	width: 500px;
+}
+#about-description{
+	margin-top: 20px;
+}
+.padding-zero{
+	padding: 0 !important;
+	margin: 0 !important;
+}
+.center-all *{
+	text-align: center;
+}
+#about-company-title{
+	color: black;
+	font-size: 40px;
+	font-family: helvetica;
+}

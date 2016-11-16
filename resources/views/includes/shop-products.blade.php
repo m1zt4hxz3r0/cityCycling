@@ -12,6 +12,7 @@
                         <div class="carousel fdi-Carousel slide" id="eventCarousel" data-interval="0">
                             <div class="carousel-inner onebyone-carosel">
                                 <div class="item active">
+                                    <a href="/product-detail"></a>
                                     <div class="col-md-4">
                                         <a href="#"><img src="http://placehold.it/250x250" class="img-responsive center-block"></a>
                                         <div class="text-center">1</div>

@@ -1,0 +1,8 @@
+#success_message{ display: none;}
+#btnSend{
+	float: left;
+	margin-left: 5px;
+}
+.width-100{
+	width: 100%;
+}

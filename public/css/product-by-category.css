@@ -1,0 +1,19 @@
+.blackborder{
+	border: 1px solid black;
+}
+#category-name{
+	color: black;
+	font-family: helvetica;
+	font-size: 30px;
+}
+.margin10px{
+	margin: 10px;
+}
+#pages{
+	text-align: center;
+}
+.font-stye-primary{
+	color: black;
+	font-size: 15px;
+	font-weight: bold;
+}

@@ -14,6 +14,17 @@ class PageController extends Controller
     }
     public function productDetail(){
     	return view('pages.product-detail');
-
+    }
+    public function productCategory(){
+    	return view('pages.product-by-category');
+    }
+    public function cart(){
+    	return view('pages.cart');
+    }
+    public function about(){
+    	return view('pages.about');
+    }
+     public function contact(){
+    	return view('pages.contact-us');
     }
 }

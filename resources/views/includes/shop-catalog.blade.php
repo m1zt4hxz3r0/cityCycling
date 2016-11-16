@@ -1,6 +1,7 @@
   <link rel="stylesheet" href="css/shop.css">
   <div class="container" >
 	<div class="row" id="catalogContainer">
+		<a href="/product-by-category">
 		<div class="col-lg-4 thumbnail" id="menbike" style="background:url(../img/Shop-Mountain.png) no-repeat;">
 			<div class="container" id="wrap">
 				
@@ -9,6 +10,7 @@
 				Mens' Bike
 				</div>	
 		</div>
+		</a>
 		<div class="col-lg-4 thumbnail" id="ladybike" style="background:url(../img/Shop-Ladies.png);">
 			<div class="container" id="wrap">
 				
