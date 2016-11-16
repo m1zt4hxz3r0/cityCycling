@@ -19,7 +19,8 @@ Route::get('/cart', 'PageController@cart');
 Route::get('/about', 'PageController@about');
 Route::get('/contact', 'PageController@contact');
 
-
+Route::get('/admin-login', 'PageController@adminLogin');
+Route::get('/admin-panel-main', 'PageController@adminPanel');
 
 Route::get('list', 'ImageController@showPictureList');
 Route::get('pic/{id}', 'ImageController@showPicture');
