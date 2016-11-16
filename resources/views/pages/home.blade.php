@@ -5,7 +5,7 @@
 	<div class="container-fluid">
     	<div class="row">
 	        <div class="col-lg-12 grow shadow" id="mountainBike">
-	            <div id="base">
+	            <div id="shapeY">
 	            	
 	            </div>
 	            <div class="pull-right detail-left">
