@@ -1,17 +1,30 @@
-<script src="js/more-details.js"></script>
-<div>
-  <!-- Nav tabs -->
-  <ul class="nav nav-tabs" role="tablist">
-    <li role="presentation" class="active"><a href="#home" aria-controls="description" role="tab" data-toggle="tab">Description</a></li>
-    <li role="presentation"><a href="#profile" aria-controls="spec" role="tab" data-toggle="tab">Specification</a></li>
-    <li role="presentation"><a href="#messages" aria-controls="review" role="tab" data-toggle="tab">Review</a></li>
-  </ul>
+<div class="row">
+      <div class="col-md-12">
+            <div class="panel with-nav-tabs panel-default">
+                <div class="panel-heading">
+                        <ul class="nav nav-tabs">
+                            <li class="active"><a href="#tabdesc" data-toggle="tab">Description</a></li>
+                            <li><a href="#tabspecs" data-toggle="tab">Specifications</a></li>
+                            <li><a href="#tabrev" data-toggle="tab">Review</a></li>
+                           
+                        </ul>
+                </div>
+                <div class="panel-body">
+                    <div class="tab-content">
+                        <div class="tab-pane fade in active" id="tabdesc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident magni reiciendis, tempore repellat! Quisquam libero labore autem ullam! Sequi praesentium assumenda odit, molestias dicta ab ipsam commodi unde omnis eius.</div>
+                        <div class="tab-pane fade" id="tabspecs">
+                          Weight : 1grams <br>
+                          Height : 232inch <br>
+                          Material : plastic <br>
+                          Foldable : yes <br>
 
-  <!-- Tab panes -->
-  <div class="tab-content">
-    <div role="tabpanel" class="tab-pane active" id="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat numquam impedit, sequi nostrum, est mollitia, quis esse expedita commodi beatae maxime. Nemo unde perspiciatis reprehenderit at doloremque, enim consequuntur cum.</div>
-    <div role="tabpanel" class="tab-pane" id="spec">...</div>
-    <div role="tabpanel" class="tab-pane" id="review">...</div>
-  </div>
-
+                        </div>
+                        <div class="tab-pane fade" id="tabrev">
+                          <p id="username">Jose Rizal 06/14/99 </p><br>
+                          <p id="review">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae mollitia adipisci illo assumenda neque, accusamus ullam, id unde tempora excepturi eaque earum sit amet quaerat deserunt! Natus libero, dignissimos doloribus.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 </div>

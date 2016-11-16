@@ -19,20 +19,27 @@
 		<div class="col-lg-5" id="largeImage">
 			<img src="http://placehold.it/400x400" alt="">
 		</div>
-		<div class="col-lg-7" id="description">
-			<p id="price">Price : Php. 1000.00</p>
-			<p id="model">Model</p>
-			<p id="height">Height</p>
-			<p id="weight">Weight</p>
-			<p id="stocks">Available Stocks</p>
 
+		<div class="col-lg-7" id="descContainer">
+			<p id="price">Price : Php. 1000.00</p>
+			<div id="description">
+				<p id="model">Model</p>
+				<p id="height">Height</p>
+				<p id="weight">Weight</p>
+				<p id="stocks">Available Stocks</p>
+			</div>
+			<button class="btn btn-primary pull-right toBottomRight" id="btnAdd"><i class="glyphicon glyphicon-shopping-cart"></i>ADD TO CART</button>	
 		</div>
+
 	</div>
-	<button></button>
+	
 </div>
 
 <div class="container" id="moreDetails">
 	@include('includes.more-details')
+</div>
+<div class="container" id="moreItems">
+	@include('includes.more-items')
 </div>
  
 

@@ -11,6 +11,15 @@
 	margin:0 !important;
 	padding: 0 !important;
 }
+#price{
+	color: black;
+	font-weight: bold;
+	font-size: 30px;
+	font-family: Comic Sans MS;
+}
+#containerThumbnail{
+	border: 1px solid black;
+}
 #details-2{
 	margin-top: 20px;
 }
@@ -20,4 +29,20 @@
 }
 #description{
 	border: 1px solid red;
+}
+#descContainer{
+	height: 400px;
+}
+#btnAdd{
+	margin: 10px;
+	padding: 20px;
+}
+#moreDetails{
+	padding: 0;
+	margin-top: 20px;
+}
+.toBottomRight{
+	position: absolute;
+	right: 0;
+	bottom: 0;
 }
