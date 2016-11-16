@@ -1,5 +1,8 @@
 @extends('master.page-master')
-
 @section('content')
-shit
+@include('includes.shop-header')
+@include('includes.shop-catalog')
+    </div>
+</div>
+@include('includes.shop-products')
 @stop
